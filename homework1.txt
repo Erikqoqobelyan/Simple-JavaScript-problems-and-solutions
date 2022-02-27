@@ -1,0 +1,183 @@
+1)1.const a = 14;
+    const b = 5;
+    console.log(a + b);
+    console.log(a - b);
+    console.log(a * b);
+    console.log(a / b);
+    console.log(a % b);
+  
+  2.const a = 99;
+    const b = 11;
+    console.log(a + b);
+    console.log(a - b);
+    console.log(a * b);
+    console.log(a / b);
+    console.log(a % b);
+
+   3.const  a = 81;
+     const  b =  16;
+     console.log(a + b);
+     console.log(a - b);
+     console.log(a * b);
+     console.log(a / b);
+     console.log(a % b);
+
+2) const name = 'Erik';
+   const age = 21;
+   console.log('My name is'+' ' + name + ',' +'I am' + ' ' + age + '.');
+
+3)//Միայն մեր անցածներով չկարողացա գրել:
+  1.let lastNumber = String(78756).substr(-1);
+    alert(lastNumber);
+
+  2.let lastNumber =-String(-122).substr(-1);
+    alert(lastNumber);
+
+  3.let lastNumber = String(8).substr(-1);
+    alert(lastNumber);
+  
+  4.let lastNumber = String(0).substr(-1);
+    alert(lastNumber);
+
+
+4)1. const a = 0;
+     if(a < 0){
+       alert('yes');
+     }else{
+       alert('no');
+      }
+
+   2. const a = -71;
+      if(a < 0){
+       alert('yes');
+      }else{
+        alert('no');
+       }
+
+   3. const a = 89;
+      if(a < 0){
+        alert('yes');
+      }else{
+       alert('no');
+       }
+
+
+5)1.let a = 3;
+    let b = 14;
+    
+    if( a % b == 0 || b % a == 0){
+    alert(1);
+    }else{
+     alert(0);
+     }
+
+
+  2.let a = 18;
+    let b = 2;
+    
+    if( a % b == 0 || b % a == 0){
+    alert(1);
+    }else{
+     alert(0);
+     }
+
+
+  3.let a = 7;
+    let b = 21;
+    
+    if( a % b == 0 || b % a == 0){
+    alert(1);
+    }else{
+     alert(0);
+     }
+
+6) const month = +prompt("Տարվա ո՞ր ամիսն է։")
+   switch(month){
+    case 1 : {
+        console.log("January")
+        break
+    }
+    case 2 : {
+        console.log("February")
+        break
+    }
+    case 3 : {
+        console.log("March")
+        break
+    }
+    case 4 : {
+        console.log("April")
+        break
+    }
+    case 5 : {
+        console.log("May")
+        break
+    }
+    case 6 : {
+        console.log("June")
+        break
+    }
+    case 7 : {
+        console.log("July")
+        break
+    }
+    case 8 : {
+        console.log("August")
+        break
+    }
+    case 9 : {
+        console.log("September")
+        break
+    }
+    case 10 : {
+        console.log("October")
+        break
+    }
+    case 11 : {
+        console.log("November ")
+        break
+    }
+    default: {
+         console.log("December")
+      }
+  }
+  
+7)1.const a =-4;
+    const b = 6;
+    const c = 0;
+ 
+    if(a > b && a > c){
+      console.log(a + ' ' + 'is maximum');
+    }else if(b > a && b > c){
+      console.log(b + ' ' + 'is maximum');
+    }else if(c > b && c > a){
+      console.log(c + ' ' + 'is maximum');
+     }
+
+   2.const a =1020;
+    const b = 500;
+    const c = -450;
+ 
+    if(a > b && a > c){
+      console.log(a + ' ' + 'is maximum');
+    }else if(b > a && b > c){
+      console.log(b + ' ' + 'is maximum');
+    }else if(c > b && c > a){
+      console.log(c + ' ' + 'is maximum');
+     }
+
+
+   1.const a =14;
+    const b = 8;
+    const c = 14;
+ 
+    if(a > b && a > c){
+      console.log(a + ' ' + 'is maximum');
+    }else if(b > a && b > c){
+      console.log(b + ' ' + 'is maximum');
+    }else{
+      console.log(c + ' ' + 'is maximum');
+     }
+
+
+
