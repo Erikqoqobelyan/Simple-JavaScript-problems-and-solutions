@@ -26,7 +26,7 @@
    const age = 21;
    console.log('My name is'+' ' + name + ',' +'I am' + ' ' + age + '.');
 
-3)//Միայն մեր անցածներով չկարողացա գրել:
+3)
   1.let lastNumber = String(78756).substr(-1);
     alert(lastNumber);
 
