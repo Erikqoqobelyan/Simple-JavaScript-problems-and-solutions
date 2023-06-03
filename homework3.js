@@ -1,4 +1,4 @@
-//1. Given an array․ Compute the length of the array. (without using .length)
+//1. Given an array․ Compute the length of the array.
 let arr = [1, 12, 4];
 console.log(arr.length);
 //2.Given an array of numbers. Print the sum of the elements in array.
