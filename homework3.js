@@ -1,5 +1,4 @@
 //1. Given an array․ Compute the length of the array. (without using .length)
-//Ուրիշ տարբերակով չկարողացա
 let arr = [1, 12, 4];
 console.log(arr.length);
 //2.Given an array of numbers. Print the sum of the elements in array.
@@ -17,7 +16,6 @@ for (let i = 8;i <= b;i=i*2){
    console.log(i)
 }
 // 4.Given a number as input, insert dashes (-) between each two even numbers.
-//Օգտվել եմ Youtube-ից,բայց հասկացել եմ
 function isEven(num){
 return num % 2 === 0;
 }
@@ -36,4 +34,4 @@ for(let i = 0; i< numStr.length;i++){
 return outpute
 }
 console.log(insert(22222))
-//5 --------------
+
